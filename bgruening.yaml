@@ -20,6 +20,11 @@ tools:
     tool_panel_section_label: Machine Learning
 
 
+# CHEMICALTOOLBOX
+  - name: simorgh
+    owner: bgruening
+    tool_panel_section_label: ChemicalToolBox
+
 # "CONVERT FORMATS"
 
   - name: glimmer_glimmer_to_gff
@@ -54,6 +59,28 @@ tools:
     owner: bgruening
     tool_panel_section_label: Convert Formats
 
+# DATA MANAGERS
+  - name: mirge3_build_database
+    owner: bgruening
+
+# PHYLOGENETICS
+  - name: grapetree
+    owner: bgruening
+    tool_panel_section_label: Phylogenetics
+
+# RNA ANALYSIS
+  - name: cleaverna
+    owner: bgruening
+    tool_panel_section_label: RNA Analysis
+
+  - name: mirge3
+    owner: bgruening
+    tool_panel_section_label: RNA Analysis
+
+  - name: tdrmapper
+    owner: bgruening
+    tool_panel_section_label: RNA Analysis
+
 # SAM/BAM
 
   - name: sambamba_flagstat
@@ -79,6 +106,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: agat
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: confindr
     owner: bgruening
     tool_panel_section_label: Annotation
 
@@ -115,6 +146,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: kat_cold
+    owner: bgruening
+    tool_panel_section_label: Annotation
+
+  - name: lissero
     owner: bgruening
     tool_panel_section_label: Annotation
 
@@ -293,6 +328,10 @@ tools:
     
 # GRAPH/DISPLAY DATA
 
+  - name: datavzrd
+    owner: bgruening
+    tool_panel_section_label: Graph/Display Data
+
   - name: jbrowse2
     owner: fubar
     tool_panel_section_label: Graph/Display Data
@@ -328,6 +367,10 @@ tools:
     tool_panel_section_label: Imaging
 
   - name: coco_annotation_visualizer
+    owner: bgruening
+    tool_panel_section_label: Imaging
+
+  - name: sem_analysis
     owner: bgruening
     tool_panel_section_label: Imaging
 
@@ -656,6 +699,14 @@ tools:
 # OTHER TOOLS
 
 
+  - name: new_fave_extract
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: langchain_text_splitters
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
 # PEAK CALLING
 
   - name: dewseq
@@ -738,6 +789,10 @@ tools:
     owner: bgruening
     tool_panel_section_label: Statistics
 
+  - name: coxph
+    owner: bgruening
+    tool_panel_section_label: Statistics
+
   - name: create_tool_recommendation_model
     owner: bgruening
     tool_panel_section_label: Statistics
@@ -750,6 +805,10 @@ tools:
     owner: bgruening
     tool_panel_section_label: Statistics
 
+
+  - name: survminer
+    owner: bgruening
+    tool_panel_section_label: Statistics
 
 # TEXT MANIPULATION
 
@@ -773,6 +832,10 @@ tools:
     owner: bgruening
     tool_panel_section_label: Text Manipulation
 
+
+  - name: yq
+    owner: bgruening
+    tool_panel_section_label: Text Manipulation
 
 # VARIANT CALLING
 
